@@ -1,0 +1,108 @@
+body {
+    background-color:white;
+}
+
+h1 {
+    color:black; font-size:25px;
+}
+
+h2 {
+    color:black; font-size:25px;
+}
+
+h3 {
+    color:black; font-size:18px;
+}
+
+h4 {
+    color:black; font-size:18px;
+}
+
+h5 {
+    color:black; font-size:15px;
+}
+
+h6 {
+    color:black; font-size:15px;
+}
+
+p {
+    color:black; font-size:15px;
+}
+
+#muodostuminen {
+    margin: 10px;
+    padding: 0;
+}
+
+.tutkinto {
+    margin: 10px;
+    padding: 0;
+}
+
+.vaatimukset {
+    margin: 10px;
+    padding: 0;
+}
+
+.ammattitaito {
+    margin: 10px;
+    padding: 0;
+}
+
+.osat {
+    list-style-type: circle;
+    margin-left: 40px;
+    padding: 0;
+}
+
+#Header {
+    position: auto;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color:white;
+    border: 1px solid white;
+}
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+.active {
+    border-right: 1px solid white;
+    float:left;
+    background-color: green;
+    color:white;
+}
+
+.inactive {
+    border-right: 1px solid white;
+    float:left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
